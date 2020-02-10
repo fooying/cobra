@@ -15,7 +15,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -49,9 +48,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-
 # Sphinx documentation
 docs/_build/
 
@@ -61,7 +57,16 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+# PyCharm project config
 .idea/
+
+# macOS tmp
+.DS_Store
+
+# Cobra config file
 config
-uploads/*
-logs/*
+*.log*
+logs/
+
+# Cobra automation report image file
+scheduler/reports/
